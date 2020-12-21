@@ -1,0 +1,16 @@
+{
+  "name": "animationcss",
+  "version": "1.0.0",
+  "description": "Test Animation CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node_modules/.bin/sass --watch sass/style.scss style.css",
+    "compile": "node_modules/.bin/sass sass/style.scss style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
